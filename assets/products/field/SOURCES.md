@@ -18,3 +18,10 @@ All product assets are stored locally in the Tune Tots site repository.
 `../made-by/miley-lab-v1.png` is a newly generated page illustration based on the approved illustrated Miley character sheet. It is not an original production asset from FIELD.
 
 FIELD Telegram bot: `https://t.me/field_sound_bot`
+
+## Current FIELD UI captures — 2026-10-01
+
+- `screens/fx-latest.png` — cropped from the user-supplied live Effects screen.
+- `screens/library-latest.png` — cropped from the user-supplied live Library screen.
+- `screens/daily-latest.png` — cropped from the user-supplied live Daily Sound screen.
+- `screens/world-latest.png` — cropped from the user-supplied live FIELD World screen; city labels on the website are HTML overlays.

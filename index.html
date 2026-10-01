@@ -14,6 +14,7 @@
   <div class="noise"></div>
 
   <header class="nav">
+    <button class="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Открыть меню"><span></span><span></span><span></span></button>
     <a class="brand brand-image" href="#top"><img src="assets/logo/tune-tots-transparent.png" alt="Tune Tots"></a>
     <nav>
       <a href="#about">Лаборатория</a>
@@ -24,6 +25,18 @@
     </nav>
     <a class="nav-cta external-arrow" href="https://instagram.com/tunetots_lab" target="_blank" rel="noopener">INSTAGRAM</a>
   </header>
+  <div class="mobile-menu-backdrop" aria-hidden="true"></div>
+  <aside class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <p>Меню / Tune Tots Lab</p>
+    <nav aria-label="Мобильная навигация">
+      <a href="#about"><span>01</span>Лаборатория</a>
+      <a href="#course"><span>02</span>Курс</a>
+      <a href="#program"><span>03</span>Программа</a>
+      <a class="mobile-products-link" href="made-by/"><span>04</span>Наши приложения <b>→</b></a>
+      <a href="#contact"><span>05</span>Контакты</a>
+    </nav>
+    <small>PLAY · IMPROVISE · CREATE</small>
+  </aside>
 
   <main id="top">
     <section class="hero">
@@ -251,6 +264,10 @@
     <img class="footer-logo" src="assets/logo/tune-tots-transparent.png" alt="Tune Tots">
     <a href="mailto:tunetotslab@gmail.com">tunetotslab@gmail.com</a>
     <div class="footer-links"><a href="https://t.me/tunetots" target="_blank" rel="noopener">Telegram ↗</a><a href="https://instagram.com/tunetots_lab" target="_blank" rel="noopener">Instagram ↗</a></div>
+    <a class="footer-products" href="made-by/">
+      <span>MADE BY TUNE TOTS LAB</span>
+      <strong>Наши приложения <b>→</b></strong>
+    </a>
   </footer>
 
   <script src="content.js"></script>
