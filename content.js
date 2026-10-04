@@ -28,3 +28,19 @@ mobileMenu?.querySelectorAll('a').forEach(link => link.addEventListener('click',
 document.addEventListener('keydown', event => {
   if (event.key === 'Escape') setMenu(false);
 });
+
+const revealItems = [...document.querySelectorAll('.reveal-on-scroll')];
+revealItems.forEach((item, index) => item.style.setProperty('--delay', `${(index % 4) * 70}ms`));
+
+if ('IntersectionObserver' in window) {
+  const revealObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('is-visible');
+      revealObserver.unobserve(entry.target);
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+  revealItems.forEach(item => revealObserver.observe(item));
+} else {
+  revealItems.forEach(item => item.classList.add('is-visible'));
+}
