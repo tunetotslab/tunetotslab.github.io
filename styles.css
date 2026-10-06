@@ -65,7 +65,7 @@ h2{font-size:clamp(46px,6vw,92px);line-height:.88;margin-bottom:30px}
 .hero-art{position:relative;min-height:600px;display:flex;align-items:center;justify-content:center}
 .hero-art img{width:min(510px,100%);height:auto;display:block;position:relative;z-index:1}
 .marquee{overflow:hidden;border-bottom:var(--border);border-top:var(--border);background:var(--yellow);white-space:nowrap}
-.marquee-track{display:flex;width:max-content;font-size:22px;font-weight:1000;letter-spacing:.04em;padding:15px 0;will-change:transform;animation:marquee 16s linear infinite}
+.marquee-track{display:flex;width:max-content;font-size:22px;font-weight:1000;letter-spacing:.04em;padding:15px 0;will-change:transform;animation:marquee 56s linear infinite}
 .marquee-group{display:flex;align-items:center;flex:none;gap:24px;padding-right:24px}
 .marquee-group span,.marquee-group b{display:block;flex:none}
 @keyframes marquee{to{transform:translateX(-50%)}}
